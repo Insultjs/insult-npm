@@ -39,10 +39,11 @@ client.on("message", async (message) => {
 ```
 
 ## Versiones 📦
-<h1><a href="https://www.npmjs.com/package/insultjs?activeTab=versions">V 1.1.2</a></h1>
-<p><b>Cambios-></b> Se han añadido más insultos y solucionado los errores.</p>
+<h1><a href="https://www.npmjs.com/package/insultjs?activeTab=versions">V 1.1.3</a></h1>
+<p><b>Cambios-></b> Se han añadido más insultos, solucionado errores y publicado en GitHub.</p>
 
 ## 📤 Redes de insultjs
+- [Organización](https://github.com/Insultjs)
 - [Website](https://elmarcz.github.io/portfolio/)
 - [Discord](https://discord.gg/gJRs9U6WyJ)
 
