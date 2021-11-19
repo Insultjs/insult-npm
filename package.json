@@ -1,0 +1,12 @@
+{
+  "name": "insultjs",
+  "version": "1.1.2",
+  "description": "Manten tus servidores de Discord limpios de insultos",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Medrano",
+  "license": "ISC",
+  "dependencies": {}
+}
