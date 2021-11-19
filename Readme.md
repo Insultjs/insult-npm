@@ -21,13 +21,13 @@ npm i insultjs
 
 ## Ejemplo 🧧
 ```javascript
-let {insults} = require("insultjs"); // Importa la propiedad insults de el modulo insultjs
+let insultjs = require("insultjs"); // Importa el modulo insultjs
 
 client.on("message", async (message) => {
 
   const args = message.content.trim().split(/ +/g); // No hace falta que lo definas si ya lo tienes definido
   
-  let found = insults.find(element => element == args[0].toLowerCase()); // Revisa si el mensaje enviado contiene un insulto
+  let found = insultjs.insults.find(element => element == args[0].toLowerCase()); // Revisa si el mensaje enviado contiene un insulto
   
   if (message.content.toLowerCase().includes(found)) {
   
@@ -39,7 +39,7 @@ client.on("message", async (message) => {
 ```
 
 ## Versiones 📦
-<h1><a href="https://www.npmjs.com/package/insultjs?activeTab=versions">V 1.1.3</a></h1>
+<h1><a href="https://www.npmjs.com/package/insultjs?activeTab=versions">V 1.1.4</a></h1>
 <p><b>Cambios-></b> Se han añadido más insultos, solucionado errores y publicado en GitHub.</p>
 
 ## 📤 Redes de insultjs
